@@ -20,6 +20,7 @@ defmodule SentenceTransformers do
     port_opts = %{
       model: model
     }
+
     {:ok, %{"status" => "ready"}} = call_port(port, port_opts)
     {:ok, port}
   end

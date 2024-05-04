@@ -36,7 +36,7 @@ defmodule SentenceTransformers.MixProject do
     [
       {:elixir_make, ">= 0.0.0", runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:jason, ">= 0.0.0"},
+      {:jason, ">= 0.0.0"}
     ]
   end
 end
